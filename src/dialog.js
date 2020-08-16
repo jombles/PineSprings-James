@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 const createLabel = (scene, text) => { 
-=======
-const createLabel = (scene, text) => {
->>>>>>> 4ba514d73e5749addaa06458ac46440ee0c8e2d5
   return scene.rexUI.add.label({
     width: 40, // Minimum width of round-rectangle
     height: 40, // Minimum height of round-rectangle
@@ -137,11 +133,7 @@ const handleCollision = (scene, npc) => {
   };
 
   scene.matter.overlap(
-<<<<<<< HEAD
     npc.sprite,
-=======
-    scene.characters.richard,
->>>>>>> 4ba514d73e5749addaa06458ac46440ee0c8e2d5
     [scene.guy],
     onCollideCallback,
     processCallback
