@@ -1,2 +1,2 @@
-# PineSprings-James
+# PineSprings
 Created with CodeSandbox
