@@ -3,6 +3,7 @@ import MainScene from "./main-scene.js";
 import Coffee from "./scenes/Coffee.js";
 import Hotel from "./scenes/Hotel.js";
 
+var test;
 const config = {
   type: Phaser.CANVAS,
   width: 2000,
