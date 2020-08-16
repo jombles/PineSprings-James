@@ -33,6 +33,10 @@ export default class MainScene extends Phaser.Scene {
     music = this.sound.add("lofi1");
     music.volume = 0.0;
     music.play();
+<<<<<<< HEAD
+=======
+    //test
+>>>>>>> 4ba514d73e5749addaa06458ac46440ee0c8e2d5
 
     let coffee = new Coffee("coffee");
 
